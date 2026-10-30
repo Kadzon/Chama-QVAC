@@ -1,0 +1,35 @@
+node_modules/
+dist/
+dist-electron/
+out/
+release/
+.vite/
+.venv/
+
+# Local AI models (multi-GB) — never commit
+models/
+*.gguf
+*.bin
+*.onnx
+
+# P2P stores and app data
+storage/
+corestore/
+.userdata*/
+
+# Secrets — wallets, keys, env
+.env
+.env.*
+!.env.example
+*.key
+wallet*.json
+seed*.txt
+
+# Large audio (keep small fixtures only)
+recordings/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json

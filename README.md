@@ -32,7 +32,7 @@ Full design: [docs/SPEC.md](docs/SPEC.md)
 Requirements: Windows 10/11 (macOS and Linux should also work), Node.js LTS, about 8 GB RAM, and about 5 GB of disk space for models.
 
 ```bash
-git clone https://github.com/<your-username>/chama-assistant.git
+git clone https://github.com/kadzon/chama-assistant.git
 cd chama-assistant
 npm install
 # download models into ./models (see docs/SPEC.md)
